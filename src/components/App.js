@@ -20,8 +20,10 @@ function About (){
   return (
     <div id="about">
       <h3>About</h3>
+      <input placeholder="enter name..."/>
+      <button style={{ backgroundColor: 'red', color: 'white' }}>Submit</button>
     </div>
-  )
+  );
 }
 
 function App() {
